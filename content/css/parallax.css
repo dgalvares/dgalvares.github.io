@@ -7,7 +7,7 @@ body {
   }
   
   #hero {
-    height: 2000px;
+    /* height: 2000px; */
     /* height: 100%; */
     overflow: hidden;
     position: relative;

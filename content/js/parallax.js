@@ -7,7 +7,7 @@
       for (i = 0, len = layers.length; i < len; i++) {
         layer = layers[i];
         depth = layer.getAttribute('data-depth');
-        movement = -(topDistance * depth);
+        movement = -(topDistance * (depth / 10));
         translate3d = 'translate3d(0, ' + movement + 'px, 0)';
         layer.style['-webkit-transform'] = translate3d;
         layer.style['-moz-transform'] = translate3d;
